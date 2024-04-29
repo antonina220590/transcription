@@ -1,21 +1,22 @@
 # transcription
 
 
-1. Introduction 
+1. Introduction
 
 Hello everyone! My name is Antonina. I'm a student of the RS School's Front-end / JS course. And this presentation is made as a part of the course. The topic of my presentation is OWASP Top 10 Security Risks
 
 2. Importance of websites
-First of all, I would like to notice that the importance of the Internet in modern life is absolutely undeniable. 5.3 billion people out of total number of 8.1 billion people in the world are active Internet users today.  
-And almost all aspects of our lives are covered by the Internet. 
 
-Based on the statistic today there are 1.09 billion websites in the World. And every second 3 new websites are created. 
+First of all, I would like to notice that the importance of the Internet in modern life is absolutely undeniable. 5.3 billion people out of total number of 8.1 billion people in the world are active Internet users today.
+And almost all aspects of our lives are covered by the Internet.
 
-Everyday billions of us use these websites and web-applications to search for information, connect with our friends, family and colleagues, buy and sell products and services, etc. 
+Based on the statistic today there are 1.09 billion websites in the World. And every second 3 new websites are created.
+
+Everyday billions of us use these websites and web-applications to search for information, connect with our friends, family and colleagues, buy and sell products and services, etc.
 
 And using these web-applications we leave so called digital footprints such as our personal data, bank accounts information, our home addresses, phone numbers and other important information. And this leads to certain security risks when our information gets into the hands of scammers.
 
-That is why security is taken very seriously in web development. The Open Worldwide Application Security Project (OWASP) plays crucial role in making the Internet more secure place. 
+That is why security is taken very seriously in web development. The Open Worldwide Application Security Project (OWASP) plays crucial role in making the Internet more secure place.
 
 2. OWASP as an organisation
 
@@ -23,7 +24,7 @@ OWASP is a nonprofit international foundation that was launched in 2001. Its mai
 
 3. OWASP Top 10
 
-The OWASP Top 10 is a regularly-updated report outlining concerns for web application security, focusing on the 10 most critical risks. The report is made by a team of security experts from all over the world. OWASP refers to the Top 10 as an ‘awareness document’ and they recommend that all companies incorporate the report into their processes in order to minimize and/or mitigate security risks. 
+The OWASP Top 10 is a regularly-updated report outlining concerns for web application security, focusing on the 10 most critical risks. The report is made by a team of security experts from all over the world. OWASP refers to the Top 10 as an ‘awareness document’ and they recommend that all companies incorporate the report into their processes in order to minimize and/or mitigate security risks.
 
 Their last report was published in 2021. The previous one was published in 2017 and the next one is planned to be published at the end of 2024.
 
@@ -33,9 +34,9 @@ As we limited in time let's discuss three categories out of 10:
 
 1. Insecure Design
 
-Let's start from the very new category for 2021 report which is called Insecure design. It's important to note that insecure design and insecure implementation are not the same. An insecure design cannot be fixed by a perfect implementation. 
+Let's start from the very new category for 2021 report which is called Insecure design. It's important to note that insecure design and insecure implementation are not the same. An insecure design cannot be fixed by a perfect implementation.
 
-The main idea of this category is that all software developer have a responsibility to write secure applications that do not put its users at risks. That's why it's very important to keep security in mind from the very beginning of the development process. Otherwise the users' data will be at risks and the app will require updates and fixes to prevent these risks. And eventually it leads to unpredictable large monetary and reputational losses for the business. 
+The main idea of this category is that all software developer have a responsibility to write secure applications that do not put its users at risks. That's why it's very important to keep security in mind from the very beginning of the development process. Otherwise the users' data will be at risks and the app will require updates and fixes to prevent these risks. And eventually it leads to unpredictable large monetary and reputational losses for the business.
 
 ###### Examples of Insecure Design
 
@@ -52,9 +53,9 @@ The report provides us with list of prescriptions that might help the developer 
 
 2. Vulnerable and outdated components
 
-Today all of the web-sites even the simplest one have a lot of dependencies, plugins, extensions and third party code. Failing to update every piece of software on the backend and frontend of a website will introduce heavy security risks. Attackers actively seek out websites using vulnerable components and aggressively exploit them to spread malware, spam and phishing. 
+Today all of the web-sites even the simplest one have a lot of dependencies, plugins, extensions and third party code. Failing to update every piece of software on the backend and frontend of a website will introduce heavy security risks. Attackers actively seek out websites using vulnerable components and aggressively exploit them to spread malware, spam and phishing.
 
-Components typically run with the same privileges as the application itself, so flaws in any component can result in serious impact. 
+Components typically run with the same privileges as the application itself, so flaws in any component can result in serious impact.
 
 There are automated tools to help attackers find unpatched or misconfigured systems. For example, the Shodan IoT search engine can help you find devices that still suffer from vulnerability patched in April 2014.
 
@@ -67,7 +68,7 @@ There should be a patch management process in place to:
 - Monitor for libraries and components that are unmaintained or do not create security patches for older versions. If patching is not possible, consider deploying a virtual patch to monitor, detect, or protect against the discovered issue.
 - etc
 
-3. Injection 
+3. Injection
 
 A code injection happens when an attacker sends invalid data to the web application with the intention of making it do something that the application is not designed/programmed to do.
 
@@ -78,7 +79,7 @@ Access control enforces policy such that users cannot act outside of their inten
 - Accessing API with missing access controls for POST, PUT and DELETE.
 - and others.
 
-You can see some examples of attack scenarios on the screen. 
+You can see some examples of attack scenarios on the screen.
 
 ###### How to prevent
 
@@ -92,6 +93,6 @@ Access control is only effective in trusted server-side code or server-less API,
 You can find other secure risks on the OWASP web-site.
 
 
-So, I think that it's clear that today's internet is pretty insecure place. And all the organisations and self-employed developers must take all the risk in account very seriously. 
+So, I think that it's clear that today's internet is pretty insecure place. And all the organisations and self-employed developers must take all the risk in account very seriously.
 
 
